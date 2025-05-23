@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Figtree-Italic-VariableFont_wght';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-VariableFont_wght';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Figtree-VariableFont_wght;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+#blog-card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    width: 320px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 7px 7px 0px 1px hsl(0, 0%, 7%);
+}
+.blog-image{
+    width: 100%;
+    border-radius: 20px;
+}
+.tag{
+    padding: 7px 15px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px; 
+    width: fit-content;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#publish-date{
+    font-size: 14px;
+}
+#card-title{
+    font-weight: 800; 
+}
+#description{
+    color: hsl(0, 0%, 42%);
+    line-height: 1.6;
+}
+#author-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#author-icon{
+    width: 33px;
+}
+#author-name{
+    font-size: 13px;
+    font-weight: 800;
+}
